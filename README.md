@@ -43,18 +43,24 @@ description = model.n_similarity(df_clean['description'].iloc[i], df_selected['d
 Step 4. Display a list of relevant movies
 
 ~~~
-|      | title                                 |   total score |
-|-----:|:--------------------------------------|--------------:|
-| 5782 | Stand Up and Away! with Brian Regan   |       1.75374 |
-| 6902 | The Standups                          |       1.72589 |
-| 1471 | COMEDIANS of the world                |       1.71525 |
-| 1470 | Comedians in Cars Getting Coffee      |       1.70354 |
-| 6232 | The Comedy Lineup                     |       1.70025 |
-| 7077 | Tiffany Haddish Presents: They Ready  |       1.69649 |
-| 1600 | Daniel Sloss: Live Shows              |       1.69646 |
-| 6175 | The Break with Michelle Wolf          |       1.69529 |
-| 6517 | The Joel McHale Show with Joel McHale |       1.69193 |
-| 2117 | Fary : Hexagone                       |       1.69154 |
+Target item: 
+|      | title      | listed_in                                                |
+|-----:|:-----------|:---------------------------------------------------------|
+| 5219 | Rishta.com | ['shows', 'international', 'comedies', 'tv', 'romantic'] |
+
+Recommendation: 
+|      | title                |   total score |
+|-----:|:---------------------|--------------:|
+| 3676 | Little Things        |      0.806124 |
+| 7225 | Trio and a Bed       |      0.800453 |
+| 3741 | Love & Anarchy       |      0.796251 |
+| 4133 | Miss Culinary        |      0.795564 |
+| 4293 | Murphy's Law of Love |      0.793992 |
+| 7743 | Yours Fatefully      |      0.789017 |
+| 4143 | Miss Rose            |      0.782283 |
+| 3750 | Love Cheque Charge   |      0.781745 |
+| 3252 | Just You             |      0.780499 |
+| 2785 | Home for Christmas   |      0.779805 |
 ~~~
 
 ## License
