@@ -42,96 +42,20 @@ description = model.n_similarity(df_clean['description'].iloc[i], df_selected['d
 
 Step 4. Display a list of relevant movies
 
-    <tr>
-      <th>1324</th>
-      <td>Chicken Kokkachi</td>
-      <td>[comedies, movies, international]</td>
-      <td>[marriage, man, learns, said, wake, supporting...</td>
-      <td>1.000000</td>
-      <td>0.735539</td>
-      <td>1.735539</td>
-    </tr>
-    <tr>
-      <th>885</th>
-      <td>Bhaji In Problem</td>
-      <td>[comedies, movies, international]</td>
-      <td>[two, unaware, knows, man, arrives, life, old,...</td>
-      <td>1.000000</td>
-      <td>0.735079</td>
-      <td>1.735079</td>
-    </tr>
-    <tr>
-      <th>2155</th>
-      <td>Fifty Year Old Teenager</td>
-      <td>[comedies, movies, international]</td>
-      <td>[life, younger, woman, married, act, falls, li...</td>
-      <td>1.000000</td>
-      <td>0.699812</td>
-      <td>1.699812</td>
-    </tr>
-    <tr>
-      <th>3460</th>
-      <td>Kuch Kuch Hota Hai</td>
-      <td>[comedies, movies, dramas, international]</td>
-      <td>[girl, best, woman, wish, mother, sets, father...</td>
-      <td>0.958004</td>
-      <td>0.741664</td>
-      <td>1.699668</td>
-    </tr>
-    <tr>
-      <th>7532</th>
-      <td>Well Done Abba</td>
-      <td>[comedies, movies, international]</td>
-      <td>[mired, bureaucracy, village, leave, husband, ...</td>
-      <td>1.000000</td>
-      <td>0.686940</td>
-      <td>1.686940</td>
-    </tr>
-    <tr>
-      <th>102</th>
-      <td>3 Türken &amp; ein Baby</td>
-      <td>[comedies, movies, international]</td>
-      <td>[lives, exgirlfriend, three, care, dissatisfie...</td>
-      <td>1.000000</td>
-      <td>0.684217</td>
-      <td>1.684217</td>
-    </tr>
-    <tr>
-      <th>287</th>
-      <td>About Time</td>
-      <td>[comedies, movies, dramas, international]</td>
-      <td>[travel, learns, lives, go, men, decides, woma...</td>
-      <td>0.958004</td>
-      <td>0.724101</td>
-      <td>1.682105</td>
-    </tr>
-    <tr>
-      <th>6942</th>
-      <td>The Tribe</td>
-      <td>[comedies, movies, international]</td>
-      <td>[sensation, life, memory, mother, biological, ...</td>
-      <td>1.000000</td>
-      <td>0.680872</td>
-      <td>1.680872</td>
-    </tr>
-    <tr>
-      <th>4357</th>
-      <td>My Step Dad: The Hippie</td>
-      <td>[comedies, movies, international]</td>
-      <td>[man, three, stop, take, married, widowed, adu...</td>
-      <td>1.000000</td>
-      <td>0.680013</td>
-      <td>1.680013</td>
-    </tr>
-    <tr>
-      <th>7393</th>
-      <td>Varane Avashyamund</td>
-      <td>[comedies, movies, dramas, international]</td>
-      <td>[complex, marriage, lives, arranged, man, beco...</td>
-      <td>0.958004</td>
-      <td>0.718106</td>
-      <td>1.676110</td>
-    </tr>
+~~~
+|      | title                                 |   total score |
+|-----:|:--------------------------------------|--------------:|
+| 5782 | Stand Up and Away! with Brian Regan   |       1.75374 |
+| 6902 | The Standups                          |       1.72589 |
+| 1471 | COMEDIANS of the world                |       1.71525 |
+| 1470 | Comedians in Cars Getting Coffee      |       1.70354 |
+| 6232 | The Comedy Lineup                     |       1.70025 |
+| 7077 | Tiffany Haddish Presents: They Ready  |       1.69649 |
+| 1600 | Daniel Sloss: Live Shows              |       1.69646 |
+| 6175 | The Break with Michelle Wolf          |       1.69529 |
+| 6517 | The Joel McHale Show with Joel McHale |       1.69193 |
+| 2117 | Fary : Hexagone                       |       1.69154 |
+~~~
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
