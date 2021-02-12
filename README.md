@@ -19,7 +19,7 @@ https://www.kaggle.com/shivamb/netflix-shows
 
 # Content Based Recommended engine
 
-Step 1. Download pretrained Google word2vec model
+### Step 1. Download pretrained Google word2vec model
 ~~~
 import gensim.downloader as api
 
@@ -27,19 +27,19 @@ import gensim.downloader as api
 path = api.load("word2vec-google-news-300", return_path=True)
 ~~~
 
-Step 2. Load the trained model
+### Step 2. Load the trained model
 ~~~
 import gensim
 
 model = gensim.models.KeyedVectors.load_word2vec_format(path, binary=True)
 ~~~
 
-Step 3. Find similarity of the selected movie and the other movies
+### Step 3. Find similarity of the selected movie and the other movies
 ~~~
 description = model.n_similarity(df_clean['description'].iloc[i], df_selected['description'].iloc[0])
 ~~~
 
-Step 4. Display a list of relevant movies
+### Step 4. Display a list of relevant movies
 
 ~~~
 Target item: 
