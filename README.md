@@ -1,7 +1,7 @@
-# Content Based Recommended Engine
-[This is the script](https://github.com/taishi-nammoto/content_based_recommended_engine/blob/main/content_based_recommended_engine.ipynb) 
-
 <img src="https://github.com/taishi-nammoto/content_based_recommended_engine/blob/main/Data/wordcloud.png" width="700">
+[Click here](https://github.com/taishi-nammoto/content_based_recommended_engine/blob/main/content_based_recommended_engine.ipynb) to see how I created the image above and Content Based Recommended Engine
+
+# Content Based Recommended Engine
 
 # Task Details:
 With the help of this particular data set you have to build ***a recommended engine***. And your recommended engine will return maximum 10 movies name if an user search for a particular movie.
@@ -40,7 +40,7 @@ description = model.n_similarity(df_clean['description'].iloc[i], df_selected['d
 ~~~
 
 Step 4. Display a list of relevant movies
-~~~
+
 "outputs": [
     {
      "data": {
@@ -203,7 +203,7 @@ Step 4. Display a list of relevant movies
        "4357            0.680013     1.680013  \n",
        "7393            0.718106     1.676110  "
       ]
-~~~
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
