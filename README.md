@@ -4,7 +4,7 @@
 
 # Content Based Recommended Engine
 
-# Task Details:
+## Task Details:
 With the help of this particular data set you have to build ***a recommended engine***. And your recommended engine will return maximum 10 movies name if an user search for a particular movie.
 
 Recommended engine generally in three types <br>
@@ -12,13 +12,13 @@ Recommended engine generally in three types <br>
 2.collaborative recommender engine <br>
 3.hybrid recommended engine
 
-# Goal Details:
+## Goal Details:
 Recommended engine must return 5 movie names and maximum it can return 10 movie names if an user search for a particular movie. This recommender engine should not give suggestion in between 1 to 4 and 6 to 10 it have to return 5 movie names for 10 movie names.
 
-# Data source
+## Data source
 https://www.kaggle.com/shivamb/netflix-shows
 
-# Content Based Recommended engine
+## Content Based Recommended engine
 
 Step 1. Download pretrained Google word2vec model
 ~~~
@@ -42,7 +42,6 @@ description = model.n_similarity(df_clean['description'].iloc[i], df_selected['d
 
 Step 4. Display a list of relevant movies
 
-<tbody>
     <tr>
       <th>1324</th>
       <td>Chicken Kokkachi</td>
@@ -133,7 +132,6 @@ Step 4. Display a list of relevant movies
       <td>0.718106</td>
       <td>1.676110</td>
     </tr>
-  </tbody>
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
